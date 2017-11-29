@@ -100,7 +100,22 @@ h5 {
 	color: white;
 }
 
+.footer a:link {
+	text-decoration: none;
+	color: white;
+}
+
+.footer a:visited {
+	text-decoration: none;
+	color: white;
+}
+
 .footer a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.footer a:active {
 	text-decoration: none;
 	color: black;
 }
@@ -243,35 +258,20 @@ h5 {
 	.gallery_product {
 		height: auto;
 	}
+}
 
-/*	.view-project {
-		top: 90px;
-		padding-top: 70px;
-		}*/
+@media (min-width: 992px) {
+	.gallery_product {
+		height: 264px;
 	}
+}
 
-	@media (min-width: 992px) {
-		.gallery_product {
-			height: 264px;
-		}
 
-/*	.view-project {
-		top: 79px;
-		padding-top: 30px;
-		}*/
+@media (min-width: 1200px) {
+	.gallery_product {
+		height: 321px;
 	}
-
-
-	@media (min-width: 1200px) {
-		.gallery_product {
-			height: 321px;
-		}
-
-/*	.view-project {
-		top: 83px;
-		padding-top: 40px;
-		}*/
-	}
+}
 
 
 
@@ -347,4 +347,27 @@ h5 {
 
 .img_gallery {
 	padding:0px;
+}
+
+.item img {
+	min-width: 100%;
+}
+
+@media (min-width: 768px) {
+	.carousel.slide {
+		height: auto;
+	}
+}
+
+@media (min-width: 992px) {
+	.carousel.slide {
+		height: 264px;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.carousel.slide {
+		height: 312px;
+	}
 }
