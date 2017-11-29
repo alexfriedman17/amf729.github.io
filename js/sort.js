@@ -26,3 +26,5 @@ $(this).addClass("active");
 });
 
 // https://bootsnipp.com/snippets/featured/portfolio-gallery-with-filtering-category
+
+//alternate: https://vestride.github.io/Shuffle/
